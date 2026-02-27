@@ -1,18 +1,26 @@
-# Beneaug Tmuxonwatch
+# homebrew-tmuxonwatch
 
-## How do I install these formulae?
+Homebrew tap for installing `tmuxonwatch` (the local macOS server installer used by the iOS/watchOS app).
 
-`brew install beneaug/tmuxonwatch/<formula>`
+## Install
 
-Or `brew tap beneaug/tmuxonwatch` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "beneaug/tmuxonwatch"
-brew "<formula>"
+```bash
+brew tap beneaug/tmuxonwatch
+brew install tmuxonwatch
+tmuxonwatch-install
 ```
 
-## Documentation
+## Update
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```bash
+brew update
+brew upgrade tmuxonwatch
+tmuxonwatch-install
+```
+
+## Uninstall
+
+```bash
+brew uninstall tmuxonwatch
+brew untap beneaug/tmuxonwatch
+```
