@@ -1,9 +1,9 @@
 class Tmuxonwatch < Formula
-  desc "tmuxonwatch macOS server installer and launcher"
+  desc "macOS server installer and launcher for tmux on watch"
   homepage "https://tmuxonwatch.com"
-  url "https://github.com/beneaug/TerminalPulse/archive/c740311.tar.gz"
+  url "https://github.com/beneaug/TerminalPulse/archive/refs/tags/tmuxonwatch-2026.02.28.4.tar.gz"
   version "2026.02.28.4"
-  sha256 "4ec6fbff9ab558efda9330e49cee028b551835fca4141838a47f8fd5201bc3b2"
+  sha256 "481b68a5332fee6e22fa662f8766c454b33e0de69ff754c17b75d584267f57e7"
   license "Apache-2.0"
 
   depends_on "python@3.12"
@@ -51,9 +51,9 @@ class Tmuxonwatch < Formula
   end
 
   test do
-    assert_predicate libexec/"install.sh", :exist?
-    assert_predicate libexec/"server/main.py", :exist?
-    assert_predicate libexec/"server/notify_event.py", :exist?
-    assert_predicate bin/"tmuxonwatch-install", :exist?
+    assert_path_exists libexec/"install.sh"
+    assert_path_exists libexec/"server/main.py"
+    assert_path_exists libexec/"server/notify_event.py"
+    assert_path_exists bin/"tmuxonwatch-install"
   end
 end
