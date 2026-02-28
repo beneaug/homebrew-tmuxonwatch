@@ -1,8 +1,8 @@
 class Tmuxonwatch < Formula
   desc "macOS server installer and launcher for tmux on watch"
   homepage "https://tmuxonwatch.com"
-  url "https://github.com/beneaug/TerminalPulse/archive/refs/tags/tmuxonwatch-2026.02.28.4.tar.gz"
-  sha256 "481b68a5332fee6e22fa662f8766c454b33e0de69ff754c17b75d584267f57e7"
+  url "https://github.com/beneaug/TerminalPulse/archive/refs/tags/tmuxonwatch-2026.02.28.5.tar.gz"
+  sha256 "bfbd6d550c64816bc624fe9e8f7ce475f9f8161db7a8d4ee8505e7f1b34e7410"
   license "Apache-2.0"
 
   depends_on "python@3.12"
