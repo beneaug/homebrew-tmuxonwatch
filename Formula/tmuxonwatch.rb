@@ -2,7 +2,6 @@ class Tmuxonwatch < Formula
   desc "macOS server installer and launcher for tmux on watch"
   homepage "https://tmuxonwatch.com"
   url "https://github.com/beneaug/TerminalPulse/archive/refs/tags/tmuxonwatch-2026.02.28.4.tar.gz"
-  version "2026.02.28.4"
   sha256 "481b68a5332fee6e22fa662f8766c454b33e0de69ff754c17b75d584267f57e7"
   license "Apache-2.0"
 
